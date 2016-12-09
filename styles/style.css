@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Lobster');
+
+/*UNIVERSALS*/
+
+html, body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover, a:visited {
+   color: #000;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+/*UNIVERSALS end*/
+
+/*HEADER*/
+
+header{
+    padding-left: 15px;
+    padding-right: 15px;
+    position:fixed;
+   /* position:absolute;*/
+    top:0;
+    left:0;
+    right:0;
+    z-index:1;
+    background-color:#000;
+}
+
+#logo{
+    height:50px;
+}
+
+
+/*ID with # to find correct ul*/
+#nav-links{
+    float: right;
+    margin-top: 18px;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    }
+
+#nav-links li{
+    padding: 0 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+
+/*HERO section*/
+
+.hero{
+    height:550px;
+    background-image:url(../img/groundmount.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+#hero-text{
+    text-align:center;
+    padding-top:10%;
+}
+
+/*ASIDE section*/
+
+#sidebar{
+    height:400px;
+    width:25%;
+    background-color:#0000cc;
+    float:left;
+}
+
+
+
+
+
+/*MAIN section*/
+
+main{
+    height:400px;
+    width:75%;
+    float:right;
+    background-color:linen;
+}
+
+
+
+/*FOOTER section*/
+
+footer{
+    clear:both;
+    height:100px;
+    width:100%;
+    background-color:#000;
+    text-align:center;
+}
+
+footer a{
+    font-size:10px;
+    color:#fff;
+    padding-top:15px;
+}
+
+.fa{
+    font-size:30px;
+    margin-top:35px;
+    padding:0 10px;
+}
+
+.fa:hover{
+    color:#7cd5f8;
+}
+
+
+
+/*
+
+footer{
+    position:relative;
+    left:0;
+    right:0;
+    bottom:0;
+}
+
+*/
