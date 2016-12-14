@@ -49,6 +49,7 @@ header{
 #nav-links{
     float: right;
     margin-top:0;
+    padding-top:3px;
     /*margin-top: 18px;*/
 }
 
@@ -66,7 +67,7 @@ li{
 }
 
 #nav-links li{
-    padding: 0 10px;
+    padding: 3px 15px;
     background-color: #4c4c4c;
     border-radius: 0 0 5px 5px;
 }
@@ -93,11 +94,13 @@ li{
 /*ASIDE section*/
 
 #sidebar{
-    height:400px;
+    height:350px;
     width:25%;
     background-color:#4c4c4c;
     color:#fff;
     float:left;
+    margin:30px 15px 30px 30px;
+    border-radius:20px;
 }
 
 h2{
@@ -119,15 +122,21 @@ h2{
 /*MAIN section*/
 
 main{
-    height:400px;
-    width:75%;
+    height:350px;
+    width:68%;
     float:right;
-    background-color:#fff;
-    color:#620301;
+    /*background-color:#fff;
+    color:#620301;*/
+    margin-right:30px;
+    background-color:#620301;
+    color:#fff;
+    border-radius:20px;
+    margin-top:30px;
+    margin-bottom:30px;
 }
 
 p{
-    padding:0 20px;
+    padding:0 30px;
     text-align:justify;
     font-family: 'Lato', sans-serif;
     font-size:20px;
@@ -145,6 +154,14 @@ footer{
     text-align:center;
 }
 
+#license{
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+    text-align:left;
+    padding-top:8px;
+    margin-left:10px;
+}
+
 footer a{
     font-size:10px;
     color:#fff;
@@ -153,7 +170,7 @@ footer a{
 
 .fa{
     font-size:30px;
-    margin-top:35px;
+    margin-top:12px;
     padding:0 10px;
 }
 
@@ -161,9 +178,6 @@ footer a{
     color:#620301;
 }
 
-.fa:visited{
-    color: linen;
-}
 
 
 
