@@ -1,0 +1,58 @@
+.about-hero{
+    height:500px;
+    background-image:url(../img/incomplete2.jpg);
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+.about-comp{
+    background-color:#4c4c4c;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    margin-top:-30px;
+}
+
+#company{
+    padding-top:30px;
+    margin-left:50px;
+    text-align:left;
+}
+
+#para1{
+    margin-left:30px;
+    padding-bottom: 30px;
+}
+
+#bros{
+    margin-top:-20px;
+    clear:both;
+    height:300px;
+    width:100%;
+    background-color:#620301;
+    background-image:url(../img/BAMbrosia.jpg);
+    background-repeat:no-repeat;
+    background-size:500px;
+    background-position:center center;
+    text-align:center;
+}
+
+.about-ser{    
+    background-color:#4c4c4c;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    margin-top:-30px;
+    margin-bottom:-30px;
+    padding-bottom:50px;
+}
+
+#service{
+    padding-top:30px;
+    margin-right:50px;
+    text-align:right;
+}
+
+#para2{
+    text-align:right;
+    margin-right:50px;
+    padding-right:0;
+}
